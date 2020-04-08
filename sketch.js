@@ -45,6 +45,10 @@ function draw() {
     if(!(constraint.sling.bodyA)){
         ball.display();
     }
+    bomb.collide = b1;
+    bomb.collide = b2;
+    bomb.collide = b3;
+    bomb.collide = b4;
     shooter.display();
     noStroke();
     fill(255);
